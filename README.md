@@ -1,4 +1,4 @@
- # Cardano Node Docker 
+This repository contains a Dockerfile used to build a docker image of the Cardano SL node with wallet features.
 
-This repository contains a Dockerfile used to build a docker image of the Cardano-sl node with wallet features.
+For more informations read https://cardanodocs.com/introduction/
 
