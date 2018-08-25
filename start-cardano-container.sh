@@ -2,7 +2,7 @@
 echo "Docker container ::: Starting node cardano-sl, wallet mode"
 
 # remove default nginx config
-sudo rm /etc/nginx/sites-enabled/default
+sudo rm -f /etc/nginx/sites-enabled/default
 
 # try to remove lock file from previous execution
 sudo rm -f /home/cardano/cardano-sl/state-wallet-mainnet/wallet-db/open.lock
