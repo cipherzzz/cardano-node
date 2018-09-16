@@ -116,3 +116,6 @@ curl -k https://localhost:8090/api/v1/wallets/<wallet id>/accounts
 ```
 
 We have created a wallet and noted the wallet `id` and the default wallet `accountIndex`. We will need these in order to interact with our wallet to do things like generate an address and send a transaction.
+
+Note that you may want to transfer some ADA to this account. You will see an array of `addresses` from the previous command output. You may use the `id` from the first `address` item in the array to send ADA to from an external wallet.
+ 
